@@ -1,0 +1,35 @@
+package com.cruds.demo;
+
+public class TokenDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*String input="10,14,67,78";
+		int sum=0;
+		
+		String[] tokens=input.split(",");
+		for(String s:tokens)
+		{
+			System.out.println(s);
+			int x=Integer.parseInt(s);
+			sum+=x;
+			
+		}
+		System.out.println(sum);*/
+		
+		String input="98 5,93 3,87 4|1 67 4|0 98 5";
+				String[] tokens=input.split("[|\\,\\ ]");
+			
+
+				
+								
+				for( String m:tokens)
+				{
+					//int x=Integer.parseInt(m);
+					System.out.println(m);
+				}
+		
+
+		}
+
+}

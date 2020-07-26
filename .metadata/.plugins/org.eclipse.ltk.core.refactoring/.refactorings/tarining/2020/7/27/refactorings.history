@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.cruds.demo.TikenDemo&apos; to &apos;TokenDemo&apos;&#x0D;&#x0A;- Original project: &apos;tarining&apos;&#x0D;&#x0A;- Original element: &apos;com.cruds.demo.TikenDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.cruds.demo.TokenDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TikenDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.cruds.demo{TikenDemo.java[TikenDemo" matchStrategy="1" name="TokenDemo" qualified="false" references="true" similarDeclarations="false" stamp="1593713249810" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+package com.cruds.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestStudentDAO {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

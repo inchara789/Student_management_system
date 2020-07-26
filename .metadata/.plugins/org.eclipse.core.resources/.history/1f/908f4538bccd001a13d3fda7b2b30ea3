@@ -1,0 +1,7 @@
+package com.cruds.io;
+
+public class StudentDb {
+	private int rollno;
+	private String name;
+
+}

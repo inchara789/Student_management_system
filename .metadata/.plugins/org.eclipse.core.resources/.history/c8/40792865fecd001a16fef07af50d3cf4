@@ -1,0 +1,19 @@
+package com.cruds.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.cruds.db.StudentDAO;
+import com.demo.Student;
+
+public class TestStudentDAO {
+
+	@Test
+	public void test() {
+		StudentDAO dao=new StudentDAO();
+		//assertTrue(dao.create(205, "inch"));
+		assertTrue(dao.create(new Student(404, "nisu")));
+	}
+
+}

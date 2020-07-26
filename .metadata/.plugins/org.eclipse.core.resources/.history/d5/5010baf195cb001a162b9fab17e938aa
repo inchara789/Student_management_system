@@ -1,0 +1,21 @@
+package com.demo;
+
+public class Employee  {
+	protected String firstname;
+	protected String lastname;
+	/*public Employee()
+	{
+		
+	}*/
+	public Employee(String i,String lastname)
+	{
+		System.out.println("inside employee");
+		this.firstname=i;
+		this.lastname=lastname;
+	}
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

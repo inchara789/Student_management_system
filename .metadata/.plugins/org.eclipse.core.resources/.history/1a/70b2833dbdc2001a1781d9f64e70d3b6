@@ -1,0 +1,30 @@
+package com.cruds.tcs;
+
+public class StudentClass {
+	
+    public String getQuery(String studentData,String query){
+        
+    	String[] tokens = query.split(",");
+
+    	String choice = tokens[0];
+    	
+    	switch (choice) {
+		case "1":
+			StudentList<String> namelist = new StudentList<>();
+			String[] names = studentData.split(" ");
+			
+			for(String s : names)
+			{
+				namelist.addElement(s);
+			}
+			return namelist.beginsWith(tokens[1]);
+			
+		default:
+			break;
+		}
+    	
+		return null;
+		
+    }
+    
+}

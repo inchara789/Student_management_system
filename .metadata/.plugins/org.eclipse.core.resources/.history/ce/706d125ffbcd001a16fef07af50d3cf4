@@ -1,0 +1,27 @@
+package com.cruds.db;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class StudentDAO {
+	public boolean create(int rollno,String name)
+	{
+	String sql="insert int student(rollno,name) values(?,?)";
+	int rows=0;
+	try(Connection conn=DBConnectionManager.getConnection())
+	{
+		PreparedStatement ps=conn.prepareStatement(sql);
+		ps.setInt(1, rollno);
+		ps.setString(2, name);
+		rows=ps.executeUpdate();
+		
+	} catch (SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	return false;
+	}
+
+}
+

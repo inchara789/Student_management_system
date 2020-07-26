@@ -1,0 +1,13 @@
+package com.cruds.demo;
+
+public class TokenDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String input="10,14,67,78";
+		String[] tokens=input.split(",");
+		for()
+
+	}
+
+}

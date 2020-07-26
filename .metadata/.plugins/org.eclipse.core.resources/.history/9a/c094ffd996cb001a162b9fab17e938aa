@@ -1,0 +1,52 @@
+package com.demo;
+
+public class Employee  {
+	protected String firstname;
+	protected String lastname;
+	private int id;
+	private String name;
+	
+	public Employee(int i, String string) {
+		id=i;
+		name=string;
+	}
+
+	public String getFirstname() {
+		return firstname;
+	}
+
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+
+	public String getLastname() {
+		return lastname;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+	return "Id:" + this.id + " Name:" + this.name;
+
+
+}
+}
